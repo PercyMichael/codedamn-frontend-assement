@@ -17,6 +17,7 @@ const Home: NextPage = () => {
 
       <main className="flex flex-row w-full py-10 gap-10">
         <SideBar />
+
         <ProfileForm />
       </main>
 
