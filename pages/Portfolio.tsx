@@ -3,12 +3,13 @@ import Head from "next/head";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
 import ProfileForm from "../components/ProfileForm";
+import PortfolioPage from "../components/PortlioComponents/PortfolioPage";
 
 const Home: NextPage = () => {
   return (
     <div className="min-h-screen max-w-screen-lg mx-auto">
       <Head>
-        <title>Form Profile</title>
+        <title>Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
 
       <main className="flex flex-row w-full py-10">
         <SideBar />
-        <ProfileForm />
+        <PortfolioPage />
       </main>
     </div>
   );

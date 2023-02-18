@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialsForm = () => {
   return (
-    <div className="w-full flex flex-col gap-y-14 pr-16">
+    <div className="w-full flex flex-col gap-y-14 px-20">
       <div id="form" className="flex flex-col gap-y-10">
         <form className="flex flex-col w-full gap-y-8">
           <div className="flex flex-col gap-1">

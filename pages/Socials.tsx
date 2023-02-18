@@ -13,7 +13,7 @@ const Socials: NextPage = () => {
       </Head>
       <Header />
 
-      <main className="flex flex-row w-full py-10 gap-16">
+      <main className="flex flex-row w-full py-10">
         <SideBar />
         <SocialsForm />
       </main>

@@ -4,7 +4,7 @@ import VisibilityOption from "./VisibilityOption";
 
 const ProfileForm = () => {
   return (
-    <div className="flex w-full flex-col py-4 gap-y-14 pr-16">
+    <div className="flex w-full flex-col py-4 gap-y-14 px-20">
       <div id="row-1">
         <div className="h-10 bg-red-blue w-full flex items-center gap-6">
           <Image
